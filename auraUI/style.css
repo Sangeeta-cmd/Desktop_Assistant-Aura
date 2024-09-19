@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main-body{
+    height: 100%;
+    width: 100%;
+    background-image:url(./attachments/body.jpeg);
+    background-size: 100% 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.main .loading img{
+    position: absolute;
+    top: 0;left: 36rem;
+    height: 16vh;
+    width: 25vw;
+}
+
+.main .center img{
+    position: absolute;
+    top: 9.5rem;left:15rem;right:0;
+    height: 58vh;
+    width: 68vw;
+}
+
+.main .inside-center img{
+    position: absolute;
+    top: 18rem;right: 35rem;
+    height: 20vh;
+    width: 28vw;
+}
+
+.inside img{
+    position: absolute;
+    top: 19rem;right: 46rem;
+    height: 2rem;
+    width: 5.5rem;
+}
+.main button{
+    position: absolute;
+    top: 40rem;
+    height: 2.5rem;
+    width: 4.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border:none;
+    border-radius: 10px;
+}
+.main .run button{
+    left: 30rem;
+    color: #fff;
+    background-color:green;
+}
+.main .exit button{
+    right: 30rem;
+    color: #fff;
+    background-color:red;
+}
